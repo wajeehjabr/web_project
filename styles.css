@@ -30,3 +30,18 @@ header::after {
     background-color: #a6e3f2;
     box-shadow: 0 0 3px #c6dbdc, 0 0 6px #c6dbdc
 }
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.logo img {
+
+    width: 70px;
+    height: 40px;
+
+}
