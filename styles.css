@@ -8,3 +8,14 @@
 body {
     font-family: sans-serif;
 }
+
+/* hedar section */
+header {
+    display: grid;
+    grid-column: 1/-1;
+
+    background-color: #ffffff;
+    grid-template-rows: repeat(1, 70px);
+    grid-template-columns: repeat(3, 35%);
+    position: relative;
+}
