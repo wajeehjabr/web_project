@@ -349,15 +349,15 @@ header::after {
 
 
 /*-------------------------------------------------------------------------wajeeh-----------------------------------------------------------------------*/
+/* Featured Books Section */
+.featured-books, .new-arrivals {
+    position: relative;
+    padding: 2rem 0;
+}
 
-
-
-
-
-
-
-
-
+.new-arrivals {
+    background-color: var(--section-alt);
+}
 
 
 
