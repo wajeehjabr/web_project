@@ -359,18 +359,20 @@ header::after {
     background-color: var(--section-alt);
 }
 
+.book-carousel-container {
+    position: relative;
+    overflow: hidden;
+    margin: 0 -20px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
+.book-carousel {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    padding: 20px;
+    gap: 25px;
+    
+}
 
 
 
