@@ -383,6 +383,12 @@ nav a {
     margin-top: 20px;
 }
 
+.book-card {
+    flex: 0 0 auto;
+    width: 220px;
+    transition: all 0.3s ease;
+}
+
 
 
 
