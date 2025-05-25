@@ -140,3 +140,15 @@ nav a {
     margin-left: 3%;
 
 }
+
+.learn {
+    width: 15%;
+    height: 12%;
+    margin-left: 3%;
+    background-color: #1ab2b4;
+    border: none;
+    color: white;
+    border-radius: 1px;
+    text-align: center;
+    cursor: pointer;
+}
