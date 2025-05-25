@@ -400,6 +400,9 @@ nav a {
     
 }
 
+.book-card-inner:hover {
+    box-shadow: 0 15px 30px var(--shadow-hover);
+}
 
 
 
