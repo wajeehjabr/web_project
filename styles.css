@@ -228,6 +228,13 @@ nav a {
     text-align: center
 }
 
+/* about  */
+.contenar-about {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(2, 50%);
+}
+
 /*-----------------------------------------------------------------------wajeeh---------------------------------------------------------------------*/
 /* Featured Books Section */
 .featured-books,
