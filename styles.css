@@ -773,4 +773,30 @@ nav a {
 .star-rating {
     color: #FFD700;
 }
+.promo-banner {
+   background-color: var(--section-bg);
+    position: relative;
+    overflow: hidden;
+    padding: 10rem 0;
+    background-image: url("image/banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100%;
+}
+.promo-banner .wrapper{
+     position: relative;
+    z-index: 2;
+    width: 100%;
+    display: flex;
+    top:6.5rem;
+    right: 3.1rem;
+}
 
+.promo-content {
+    position: relative;
+    z-index: 2;
+}
