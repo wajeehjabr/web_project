@@ -376,6 +376,33 @@ nav a {
     
 }
 
+.book-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.book-card {
+    flex: 0 0 auto;
+    width: 220px;
+    transition: all 0.3s ease;
+}
+
+.book-card-inner {
+    background-color: var(--color-card);
+    border-radius: 1px;
+    border: 1px solid black;
+    padding: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px var(--shadow-default);
+    height: 100%;
+    
+}
+
+.book-card-inner:hover {
+    box-shadow: 0 15px 30px var(--shadow-hover);
+}
 
 
 
