@@ -57,3 +57,11 @@ nav ul {
     justify-content: center;
     align-items: center;
 }
+
+nav li {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-around;
+
+}
