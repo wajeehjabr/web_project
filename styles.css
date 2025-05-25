@@ -249,6 +249,19 @@ nav a {
     font-size: 50px;
 }
 
+.learn2 {
+    width: 15%;
+    height: 8%;
+    margin-top: 10%;
+    margin-left: 3%;
+    background-color: #1ab2b4;
+    border: none;
+    color: white;
+    border-radius: 1px;
+    text-align: center;
+    cursor: pointer;
+}
+
 
 
 
