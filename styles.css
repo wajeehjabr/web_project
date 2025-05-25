@@ -862,3 +862,20 @@ nav a {
     line-height: 1.6;
     margin-bottom: 1rem; 
 }
+.post-meta{
+   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem; 
+}
+.post-meta i{
+     color: var(--primary-color);
+  font-size: 1rem; 
+}
+.post-meta a{
+    color: var(--primary-color);
+   font-size: 1rem;
+   text-decoration: none; 
+    color: var(--color-primary);  
+}
+
