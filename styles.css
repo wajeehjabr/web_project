@@ -485,17 +485,17 @@ nav a {
     text-overflow: ellipsis;
 }
 
+.book-author {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 5px;
+}
 
-
-
-
-
-
-
-
-
-
-
+.book-genre {
+    color: var(--color-primary);
+    font-size: 14px;
+    margin-bottom: 10px;
+}
 
 
 
