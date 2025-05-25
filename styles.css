@@ -716,4 +716,25 @@ nav a {
     margin-bottom: 8px;
     object-fit: cover;
 }
+.reviewer-profile h4 {
+    margin: 0;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #333;
+}
+.review-body {
+    position: relative;
+    flex-grow: 1;
+}
+.quote-mark {
+    position: absolute;
+    top: -6rem;
+    right: 0.8rem;
+    opacity: 0.8;
+    font-size: 4rem;
+    color: var(--border-color, #e0e0e0);
+    font-family: 'Georgia', serif;
+    z-index: 0;
+    line-height: 1;
+}
 
