@@ -1197,3 +1197,30 @@ footer {
     align-items: center;
     color: var(--color-footer-text);
 }
+.footer-contact p i {
+    margin-right: 10px;
+    color: #000000;
+    width: 1.1em;
+    text-align: center;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.social-icons a {
+    color: var(--color-footer-text);
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: var(--color-primary);
+}
+
+.newsletter-form {
+    display: flex;
+    margin-top: 15px;
+}
