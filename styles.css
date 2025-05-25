@@ -65,3 +65,10 @@ nav li {
     align-content: space-around;
 
 }
+
+nav a {
+
+    text-decoration: none;
+    padding-left: 25px;
+    font-size: small;
+}
