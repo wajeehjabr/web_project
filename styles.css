@@ -715,6 +715,7 @@ nav a {
 
 
 
+
 /*----------------------------------------------------------------obaida------------------------------------------------------------------------------------*/
 
 .customer-reviews {
@@ -756,4 +757,158 @@ nav a {
     border-radius: 50%;
     margin-bottom: 8px;
     object-fit: cover;
+
 }
+
+}
+.reviewer-profile h4 {
+    margin: 0;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #333;
+}
+.review-body {
+    position: relative;
+    flex-grow: 1;
+}
+.quote-mark {
+    position: absolute;
+    top: -6rem;
+    right: 0.8rem;
+    opacity: 0.8;
+    font-size: 4rem;
+    color: var(--border-color, #e0e0e0);
+    font-family: 'Georgia', serif;
+    z-index: 0;
+    line-height: 1;
+}
+.review-body p {
+    position: relative;
+    font-size: .6rem;
+    line-height: 1.5;
+    color: #555;
+    z-index: 1;
+    margin: 0;
+    padding-top: .1rem;
+}
+.star-rating {
+    color: #FFD700;
+}
+.promo-banner {
+   background-color: var(--section-bg);
+    position: relative;
+    overflow: hidden;
+    padding: 10rem 0;
+    background-image: url("image/banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100%;
+}
+.promo-banner .wrapper{
+     position: relative;
+    z-index: 2;
+    width: 100%;
+    display: flex;
+    top:6.5rem;
+    right: 3.1rem;
+}
+
+.promo-content {
+    position: relative;
+    z-index: 2;
+}
+.blog-posts {
+    padding: 5rem 0;
+}
+.blog-posts h2{
+    text-align: center;
+  font-size: 2.5rem; 
+  margin-bottom: 3rem;
+  font-weight: bold;
+  color: #333;  
+}
+
+.post-grid{
+    display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(21.875rem, 1fr)); 
+  gap: 2rem; 
+  background-color: var(--color-background);
+}
+.post-card{
+     border: 0.0625rem solid var(--border-color); 
+  border-radius: 0.3125rem; 
+  overflow: hidden;
+  box-shadow: 0 0.625rem 1.25rem var(--shadow-color); 
+  background-color: var(--card-bg);
+}
+.post-card  img{
+    width: 100%;
+  height: 13.75rem; 
+  object-fit: cover;
+  display: block;
+}
+
+
+.post-image {
+    height: 200px;
+    overflow: hidden;
+    padding: 10px;
+}
+.post-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+}
+
+.post-content {
+     padding: 1.25rem; 
+}
+
+.post-content h4 {
+    font-size: 1.125rem;
+  margin-bottom: 0.625rem; 
+  color: var(--primary-color); 
+  font-weight: bold;
+}
+.post-content p{
+   font-size: 0.875rem; 
+    color: var(--text-color);
+    line-height: 1.6;
+    margin-bottom: 1rem; 
+}
+.post-meta{
+   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem; 
+}
+.post-meta i{
+     color: var(--primary-color);
+  font-size: 1rem; 
+}
+.post-meta a{
+    color: var(--primary-color);
+   font-size: 1rem;
+   text-decoration: none; 
+    color: var(--color-primary);  
+}
+.blog-posts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.blo-wrapper {
+    max-width: 1200px;  
+    width: 100%; 
+}
+
