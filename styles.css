@@ -208,8 +208,25 @@ nav a {
     text-align: center
 }
 
+.icons i {
 
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: #1ab2b4;
+    margin-top: 2%;
+    text-align: center
+}
 
+.icons i {
+
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: #1ab2b4;
+    margin-top: 2%;
+    text-align: center
+}
 
 /*-----------------------------------------------------------------------wajeeh---------------------------------------------------------------------*/
 /* Featured Books Section */
