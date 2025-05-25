@@ -677,3 +677,23 @@ nav a {
 
 /*----------------------------------------------------------------obaida------------------------------------------------------------------------------------*/
 
+.customer-reviews {
+    background-color: var(--section-alt);
+    padding: 4rem;
+}
+.review-grid {
+   display: grid; 
+    grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
+    gap: 30px;
+}
+
+.review-card {
+    background-color: var(--card-bg, #fff);
+    border-radius: .2rem;
+     padding: 1rem;
+    box-shadow: 0 0 5px var(--primary-color, #2596be);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
