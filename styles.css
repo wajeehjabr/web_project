@@ -72,3 +72,28 @@ nav a {
     padding-left: 25px;
     font-size: small;
 }
+
+/* home section */
+.contenar {
+    width: 100%;
+    background-image: url("image/bg.png");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    justify-content: center;
+    align-content: center;
+    width: 90%;
+    margin-bottom: 4%;
+}
+
+.img-contenar {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin-top: 12%;
+    height: 65%;
+
+}
