@@ -119,7 +119,7 @@ header::after {
 
 nav {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 nav ul {
@@ -156,7 +156,7 @@ nav a {
 }
 
 /* home section */
-.contenar {
+.contenar-1 {
     width: 100%;
     background-image: url("image/bg.png");
     background-position: center;
@@ -653,7 +653,8 @@ section {
     background-color: var(--color-primary);
     color: white;
     transform: translateY(-2px);
-=======
+}
+
 /* Added border and padding to book cover images */
 .book-cover {
     position: relative;
