@@ -1257,3 +1257,43 @@ footer {
 .footer-bottom a:hover {
     text-decoration: underline;
 }
+@media (max-width: 1200px) {
+    .wrapper {
+        padding: 0 30px;
+    }
+    
+    .book-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (max-width: 992px) {
+    .hero-banner .wrapper,
+    .about-us .wrapper {
+        flex-direction: column;
+    }
+
+    .hero-content,
+    .about-content {
+        padding-right: 0;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .about-content h2 {
+        text-align: center;
+    }
+
+    .about-content h2:after {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .key-features .wrapper {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .book-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
