@@ -502,12 +502,12 @@ nav a {
     margin-bottom: 15px;
 }
 
-
-
-
-
-
-
+.book-price span {
+    text-decoration: line-through;
+    color: #999;
+    margin-left: 5px;
+    font-weight: normal;
+}
 
 
 
