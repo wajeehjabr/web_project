@@ -455,6 +455,14 @@ nav a {
 
 }
 
+/* Added border and padding to book cover images */
+.book-cover {
+    position: relative;
+    overflow: hidden;
+    height: 300px;
+    padding: 10px;
+}
+
 
 
 
