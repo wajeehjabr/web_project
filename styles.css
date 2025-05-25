@@ -509,15 +509,15 @@ nav a {
     font-weight: normal;
 }
 
-
-
-
-
-
-
-
-
-
+.learn-more-link {
+    display: inline-block;
+    border: 1px solid var(--color-primary);
+    color: var(--color-primary);
+    padding: 8px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
 
 
 
