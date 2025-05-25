@@ -351,30 +351,30 @@ nav a {
 
 
 /*-----------------------------------------------------------------------wajeeh---------------------------------------------------------------------*/
+/* Featured Books Section */
+.featured-books, .new-arrivals {
+    position: relative;
+    padding: 2rem 0;
+}
 
+.new-arrivals {
+    background-color: var(--section-alt);
+}
 
+.book-carousel-container {
+    position: relative;
+    overflow: hidden;
+    margin: 0 -20px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.book-carousel {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    padding: 20px;
+    gap: 25px;
+    
+}
 
 
 
