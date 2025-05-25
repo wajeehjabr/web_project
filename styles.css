@@ -800,3 +800,20 @@ nav a {
     position: relative;
     z-index: 2;
 }
+.blog-posts {
+    padding: 5rem 0;
+}
+.blog-posts h2{
+    text-align: center;
+  font-size: 2.5rem; 
+  margin-bottom: 3rem;
+  font-weight: bold;
+  color: #333;  
+}
+
+.post-grid{
+    display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(21.875rem, 1fr)); 
+  gap: 2rem; 
+  background-color: var(--color-background);
+}
