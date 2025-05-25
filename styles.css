@@ -878,4 +878,15 @@ nav a {
    text-decoration: none; 
     color: var(--color-primary);  
 }
+.blog-posts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
 
+.blo-wrapper {
+    max-width: 1200px;  
+    width: 100%; 
+}
