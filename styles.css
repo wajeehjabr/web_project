@@ -1167,3 +1167,17 @@ footer {
     height: auto;
     margin-bottom: 15px;
 }
+.footer-nav h3,
+.footer-contact h3,
+.footer-connect h3 {
+    color: #000000;
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-top: 0;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.footer-nav ul li {
+    margin-bottom: 10px;
+}
