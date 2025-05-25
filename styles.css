@@ -477,14 +477,13 @@ nav a {
     text-align: center;
 }
 
-
-
-
-
-
-
-
-
+.book-info h3 {
+    font-size: 16px;
+    margin-bottom: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
 
 
 
