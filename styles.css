@@ -5,6 +5,22 @@
     box-sizing: border-box;
 }
 
+:root {
+    --color-primary: #00a6a6;
+    --color-secondary: #333;
+    --color-background: #fff;
+    --color-text: #555;
+    --color-border: #eee;
+    --color-card: #fff;
+    --color-header: #fff;
+    --color-footer: #EAEAEA;
+    --color-footer-text: #333;
+    --shadow-default: rgba(0, 0, 0, 0.1);
+    --shadow-hover: rgba(0, 123, 255, 0.3);
+    --section-alt: #f9f9f9;
+}
+
+
 body {
     font-family: sans-serif;
 }
