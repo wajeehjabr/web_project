@@ -234,6 +234,10 @@ nav a {
     grid-template-columns: repeat(2, 50%);
 }
 
+.g-about {
+    width: 100%;
+}
+
 
 
 
