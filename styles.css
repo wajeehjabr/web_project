@@ -471,6 +471,10 @@ nav a {
 
 }
 
+.book-card-inner:hover .book-cover img {
+    transform: scale(1.05);
+}
+
 .book-info {
     padding: 15px;
     text-align: center;
