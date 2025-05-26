@@ -44,6 +44,7 @@ img {
     transition: all 0.3s ease;
     border: none;
     cursor: pointer;
+
 }
 
 .primary-btn:hover {
@@ -71,7 +72,7 @@ section {
 }
 
 .wrapper {
-    max-width: 1200px;
+    width: 100%;
     margin: 0 auto;
     padding: 0 20px;
 }
@@ -119,7 +120,7 @@ header::after {
 
 nav {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 nav ul {
@@ -156,7 +157,7 @@ nav a {
 }
 
 /* home section */
-.contenar {
+.contenar-1 {
     width: 100%;
     background-image: url("image/bg.png");
     background-position: center;
@@ -455,71 +456,6 @@ nav a {
 /*-----------------------------------------------------------------------wajeeh---------------------------------------------------------------------*/
 /* Featured Books Section */
 
-
-.wrapper {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
-
-a {
-    text-decoration: none;
-    color: var(--color-secondary);
-    transition: all 0.3s ease;
-}
-
-ul {
-    list-style: none;
-}
-
-img {
-    max-width: 100%;
-    height: auto;
-}
-
-.primary-btn {
-    display: inline-block;
-    background-color: var(--color-primary);
-    color: white;
-    padding: 6px 12px;
-    border-radius: 1px;
-    transition: all 0.3s ease;
-    border: none;
-    cursor: pointer;
-}
-
-.primary-btn:hover {
-    background-color: #008b8b;
-    transform: translateY(-3px);
-    box-shadow: 0 5px 15px var(--shadow-hover);
-}
-
-.btn-small {
-    display: inline-block;
-    background-color: var(--color-primary);
-    color: white;
-    padding: 2px 4px;
-    border-radius: 1px;
-    font-size: 10px;
-    transition: all 0.3s ease;
-}
-
-.btn-small:hover {
-    background-color: #008b8b;
-}
-
-section {
-    padding: 60px 0;
-}
-
-
-/*  */
-
-.featured-books,
-
-
-
-
 .new-arrivals {
     position: relative;
     padding: 2rem 0;
@@ -653,7 +589,8 @@ section {
     background-color: var(--color-primary);
     color: white;
     transform: translateY(-2px);
-=======
+}
+
 /* Added border and padding to book cover images */
 .book-cover {
     position: relative;
@@ -937,10 +874,9 @@ section {
 
 
 /*----------------------------------------------------------------obaida------------------------------------------------------------------------------------*/
-
 .customer-reviews {
     background-color: var(--section-alt);
-    padding: 4rem;
+    padding: 4rem
 }
 
 .review-grid {
@@ -955,12 +891,14 @@ section {
     padding: 1rem;
     box-shadow: 0 0 5px var(--primary-color, #2596be);
     position: relative;
+
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
 .review-card:hover {
+
     box-shadow: 0 10px 25px var(--shadow-hover);
 }
 
@@ -977,9 +915,7 @@ section {
     border-radius: 50%;
     margin-bottom: 8px;
     object-fit: cover;
-
 }
-
 
 .reviewer-profile h4 {
     margin: 0;
@@ -1019,6 +955,7 @@ section {
     color: #FFD700;
 }
 
+/* Promo Banner Section */
 .promo-banner {
     background-color: var(--section-bg);
     position: relative;
@@ -1034,6 +971,7 @@ section {
     min-height: 100%;
 }
 
+
 .promo-banner .wrapper {
     position: relative;
     z-index: 2;
@@ -1048,6 +986,7 @@ section {
     z-index: 2;
 }
 
+/* Blog Section */
 .blog-posts {
     padding: 5rem 0;
 }
@@ -1133,15 +1072,71 @@ section {
     font-size: 1rem;
     text-decoration: none;
     color: var(--color-primary);
+
 }
 
-.blog-posts {
+
+/* Footer */
+footer {
+    background-color: var(--color-footer);
+    color: var(--color-footer-text);
+    padding: 50px 0 20px;
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+.footer-columns {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.footer-about img {
+    max-width: 100px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.footer-nav h3,
+.footer-contact h3,
+.footer-connect h3 {
+    color: #000000;
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-top: 0;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.footer-nav ul li {
+    margin-bottom: 10px;
+}
+
+.footer-nav ul li a {
+    color: var(--color-footer-text);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-nav ul li a:hover {
+    color: var(--color-primary);
+}
+
+.footer-contact p {
+    margin-bottom: 10px;
     display: flex;
-    justify-content: center;
     align-items: center;
-    flex-direction: column;
+    color: var(--color-footer-text);
+}
+
+.footer-contact p i {
+    margin-right: 10px;
+    color: #000000;
+    width: 1.1em;
     text-align: center;
 }
+
 
 .blo-wrapper {
     max-width: 1200px;
@@ -1204,6 +1199,7 @@ footer {
     text-align: center;
 }
 
+
 .social-icons {
     display: flex;
     gap: 15px;
@@ -1224,7 +1220,6 @@ footer {
     display: flex;
     margin-top: 15px;
 }
-
 
 
 .newsletter-form input {
@@ -1257,17 +1252,21 @@ footer {
 .footer-bottom a:hover {
     text-decoration: underline;
 }
+
+/* Responsive Styles */
+
 @media (max-width: 1200px) {
     .wrapper {
         padding: 0 30px;
     }
-    
+
     .book-grid {
         grid-template-columns: repeat(4, 1fr);
     }
 }
 
 @media (max-width: 992px) {
+
     .hero-banner .wrapper,
     .about-us .wrapper {
         flex-direction: column;
@@ -1297,6 +1296,7 @@ footer {
         grid-template-columns: repeat(3, 1fr);
     }
 }
+
 @media (max-width: 768px) {
     section {
         padding: 50px 0;
@@ -1332,6 +1332,59 @@ footer {
     nav ul li {
         margin: 0 0 20px 0;
     }
+
+
+    /* Show mobile menu icons when menu is active */
+    .mobile-menu-icons {
+        display: block;
+    }
+
+    /* Hide desktop header actions on mobile */
+    .header-actions {
+        display: none;
+    }
+
+    .book-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 576px) {
+    .key-features .wrapper {
+        grid-template-columns: 1fr;
+    }
+
+    .book-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .hero-content h1 {
+        font-size: 32px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    .footer-columns {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .footer-contact p {
+        justify-content: center;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
+
+    .newsletter-form {
+        max-width: 300px;
+        margin: 15px auto 0;
+    }
+}
+=======
     .primary-btn {
     display: inline-block;
     background-color: var(--color-primary);
@@ -1348,4 +1401,5 @@ footer {
     transform: translateY(-3px);
     box-shadow: 0 5px 15px var(--shadow-hover);
 }
+
 
